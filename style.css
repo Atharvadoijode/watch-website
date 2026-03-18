@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+  transition: 0.3s;
+}
+
+header {
+  background: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: url('https://images.unsplash.com/photo-1518544801976-3e2b1e3b61e1') center/cover;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #222;
+  margin: 15px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+}
+
+/* Light Mode */
+.light-mode {
+  background: white;
+  color: black;
+}
+
+.light-mode nav {
+  background: #ddd;
+}
+
+.light-mode .card {
+  background: #f4f4f4;
+}
